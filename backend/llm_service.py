@@ -19,7 +19,7 @@ class ProjectRequirementExtractor:
         # Initialize Gemini API
         try:
             # api_key = os.getenv('GEMINI_API_KEY')
-            api_key = "AIzaSyCJbcYjeXiZoUGI3bYhS8Z2s6b-CCPGfTg"
+            api_key = ""
             if not api_key:
                 logger.warning("GEMINI_API_KEY not found in environment variables")
                 self.gemini_model = None
